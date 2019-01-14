@@ -14,3 +14,30 @@ body {
   color: #6D5D4B;
   font-weight: 300;
   line-height: 1.6; }
+
+.sidebar {
+  background-color: #c69963; }
+
+.header {
+  background-color: #54483A; }
+
+.proplayers {
+  background-color: #101d2c; }
+
+.features {
+  background-color: aqua; }
+
+.story__pictures {
+  background-color: orangered; }
+
+.story__content {
+  background-color: #f9f7f6; }
+
+.homes {
+  background-color: red; }
+
+.gallery {
+  background-color: yellowgreen; }
+
+.footer {
+  background-color: yellow; }

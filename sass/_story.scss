@@ -1,0 +1,9 @@
+.story {
+  &__pictures {
+    background-color: orangered;
+  }
+
+  &__content {
+    background-color: $color-grey-light-1;
+  }
+}
