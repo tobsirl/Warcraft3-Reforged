@@ -10,6 +10,15 @@ $color-grey-light-2: #aaa;
 $color-grey-dark-1: #54483A;
 $color-grey-dark-2: #6D5D4B;
 
+$color-w3-brown: rgb(64, 33, 5);
+
 // FONT VARIABLES
 $font-primary: 'Nunito', sans-serif;
 $font-display: 'Josefin Sans', sans-serif;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
