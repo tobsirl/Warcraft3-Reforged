@@ -36,9 +36,11 @@ body {
   background-color: #101d2c;
   grid-column: col-start / col-end 3; }
 
-.features {
+.races {
   background-color: aqua;
-  grid-column: center-start / center-end; }
+  grid-column: center-start / center-end;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
 
 .story__pictures {
   background-color: orangered;
