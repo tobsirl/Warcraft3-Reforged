@@ -49,7 +49,8 @@ body {
   margin: 15rem 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 6rem; }
+  grid-gap: 6rem;
+  align-items: start; }
   .races__title {
     text-align: center;
     box-sizing: border-box;
@@ -57,17 +58,17 @@ body {
     color: orangered;
     font-size: 8rem; }
 
-.race__logo {
-  width: 16rem;
-  height: 16rem; }
-
-.race__name {
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: 400;
-  font-size: 1.9rem; }
-
-.race__text {
-  font-size: 1.7rem; }
+.race {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  grid-row-gap: 1.5rem;
+  grid-column-gap: 2.5rem; }
+  .race__logo {
+    width: 16rem;
+    height: 16rem;
+    grid-row: 1 / span 2; }
+  .race__text {
+    font-size: 1.7rem; }
 
 .story__pictures {
   background-color: orangered;
