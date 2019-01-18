@@ -19,5 +19,21 @@
 }
 
 .race {
-  
+
+  &__logo {
+    width: 16rem;
+    height: 16rem;
+
+  }
+
+  &__name {
+    font-family: $font-display;
+    font-weight: 400;
+    font-size: 1.9rem;
+
+  }
+
+  &__text {
+    font-size: 1.7rem;
+  }
 }

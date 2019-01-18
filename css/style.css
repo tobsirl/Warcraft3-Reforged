@@ -46,6 +46,18 @@ body {
     color: orangered;
     font-size: 8rem; }
 
+.race__logo {
+  width: 16rem;
+  height: 16rem; }
+
+.race__name {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.9rem; }
+
+.race__text {
+  font-size: 1.7rem; }
+
 .story__pictures {
   background-color: orangered;
   grid-column: full-start / col-end 4; }
