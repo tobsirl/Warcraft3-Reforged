@@ -2,6 +2,17 @@
   background-color: aqua;
   grid-column: center-start / center-end;
 
+  margin: 15rem 0;
+
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-gap: 6rem;
+
+
+  &__title {
+    //background-color: white;
+    text-align: center;
+    box-sizing: border-box;
+
+  }
 }
