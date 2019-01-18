@@ -42,7 +42,9 @@ body {
   grid-gap: 6rem; }
   .races__title {
     text-align: center;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    margin-top: 30rem;
+    color: orangered; }
 
 .story__pictures {
   background-color: orangered;

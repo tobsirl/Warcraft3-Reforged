@@ -8,11 +8,11 @@
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 6rem;
 
-
   &__title {
     //background-color: white;
     text-align: center;
     box-sizing: border-box;
-
+    margin-top: 30rem;
+    color: orangered;
   }
 }
