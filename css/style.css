@@ -80,7 +80,8 @@ body {
 
 .story__pictures {
   background-color: #402105;
-  grid-column: full-start / col-end 4; }
+  grid-column: full-start / col-end 4;
+  display: grid; }
 
 .story__content {
   background-color: #f9f7f6;

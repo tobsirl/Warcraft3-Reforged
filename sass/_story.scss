@@ -2,6 +2,20 @@
   &__pictures {
     background-color: $color-w3-brown;
     grid-column: full-start / col-end 4;
+
+    display: grid;
+  }
+
+  &__img--1 {
+    
+  }
+
+  &__img--2 {
+
+  }
+
+  &__img--3 {
+
   }
 
   &__content {
