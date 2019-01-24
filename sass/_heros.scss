@@ -1,0 +1,14 @@
+.heros {
+  background-image: url('../img/main-bg.jpg');
+  grid-column: center-start / center-end;
+  // margin: 1rem 0;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 7rem;
+}
+
+.hero {
+  background-color: inherit;
+  
+}

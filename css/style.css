@@ -125,9 +125,15 @@ body {
 .mb-hg {
   margin-bottom: 8rem; }
 
-.homes {
-  background-color: red;
-  grid-column: center-start / center-end; }
+.heros {
+  background-image: url("../img/main-bg.jpg");
+  grid-column: center-start / center-end;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 7rem; }
+
+.hero {
+  background-color: inherit; }
 
 .gallery {
   background-color: yellowgreen;
