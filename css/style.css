@@ -72,11 +72,11 @@ body {
   grid-row-gap: 1.5rem;
   grid-column-gap: 2.5rem; }
   .race__logo {
-    width: 16rem;
-    height: 16rem;
+    width: 10rem;
+    height: 10rem;
     grid-row: 1 / span 2; }
   .race__text {
-    font-size: 1.7rem; }
+    font-size: 1rem; }
 
 .story__pictures {
   background-color: #402105;

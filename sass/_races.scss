@@ -27,12 +27,15 @@
   grid-column-gap: 2.5rem;
 
   &__logo {
-    width: 16rem;
-    height: 16rem;
+    width: 10rem;
+    height: 10rem;
     grid-row: 1 / span 2;
   }
 
   &__text {
-    font-size: 1.7rem;
+    font-size: 1rem;
+    
   }
+
+ 
 }
